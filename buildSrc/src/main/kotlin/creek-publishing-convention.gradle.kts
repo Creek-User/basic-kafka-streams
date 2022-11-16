@@ -40,7 +40,7 @@ publishing {
         // update to publish jars to your artefact store, as required
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/creek-service/${rootProject.name}")
+            url = uri("https://maven.pkg.github.com/Creek-User/${rootProject.name}")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
